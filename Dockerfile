@@ -7,7 +7,7 @@ RUN apt update -y && \
 
 WORKDIR /home/node/app
 
-USER node
+# USER node
 
 # ler o dispositivo nulo do linux
 CMD [ "tail", "-f", "/dev/null" ] # ler o dispositivo nulo do linux
